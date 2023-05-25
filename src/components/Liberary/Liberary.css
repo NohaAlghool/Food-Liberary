@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalam&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.home{
+    width: 100vw;
+    height: 100vh;
+    /* background-color: rgb(71, 71, 71); */
+    padding: 20px;
+}
+.item1{
+    width: 380px;
+    padding: 0px;
+    box-shadow: rgba(67, 71, 85, 0.27) 0px 0px 0.25em, rgba(90, 125, 188, 0.05) 0px 0.25em 1em;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.price-book-divide h2{
+    font-size: 20px;
+    font-weight: 400;
+    color:#4db6ac;
+}
+.price-book-divide{
+    margin-bottom: 10px;
+}
+.row{
+    margin-right: 0;
+    margin-left: 0px;
+}
+.btn-primary{
+    background-color: #4db6ac;
+    outline: none;
+    border: none;
+    transition: all 0.3 ease-in-out;
+    -webkit-transition: all 0.3 ease-in-out;
+    -moz-transition: all 0.3 ease-in-out;
+    -ms-transition: all 0.3 ease-in-out;
+    -o-transition: all 0.3 ease-in-out;
+}
+.img-fluid{
+    height: 230px;
+    object-fit: cover;
+    width: 100%;
+    border-radius: 10px;
+    /* margin-left: -12px; */
+}
+.main-title h1{
+    font-size: 21px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.row>* {
+    padding: 0px;
+}
+.right-Side{
+    padding:0 20px;
+}
